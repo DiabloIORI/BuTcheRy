@@ -88,7 +88,7 @@ THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR3019",1)
 		CreateCreatureOffScreen("D9ELARXX",0)  // Skeleton Archer - Squelette archer
-		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 			RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR3019",1)
 		CreateCreatureOffScreen("D9mgre01",0)  // Greater Mummy - Momie majeure
@@ -100,7 +100,7 @@ THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR3019",1)
 		CreateCreatureOffScreen("D9SKL01",0)   // Skeleton Cleric - Clerc squelette (20th Level)
-		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR3019",1)
 		CreateCreatureOffScreen("D9SKL03",0)   // Skeleton Mage - Mage squelette (20th Level)

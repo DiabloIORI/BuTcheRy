@@ -22,35 +22,56 @@ THEN
 		SetGlobal("D9eyelessmessage","AR1512",1)
 END
 
+
 IF
 	Global("D9beginbutchery","AR1512",1)
 	GlobalLT("MaxSpawn","AR1512",110)
-	GlobalLT("EXTRACOUNT","MYAREA",6)
+	GlobalLT("EXTRACOUNT","MYAREA",5)
 	ActionListEmpty()
 	InActiveArea(Myself)
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DFGAAA",0)  // Grimwarder
+		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("d9astHH",S)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
 		CreateCreatureOffScreen("D9DFBBB",0)  // Grimwarder Archer
-		IncrementGlobal("EXTRACOUNT","MYAREA",1)
-	RESPONSE #100
-		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DFBBB",0)  // Grimwarder Archer
-		IncrementGlobal("EXTRACOUNT","MYAREA",1)
-	RESPONSE #100
-		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9astHH",0)  // Ghast - Bl�me
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
 IF
 	Global("D9beginbutchery","AR1512",1)
 	GlobalLT("MaxSpawn","AR1512",110)
-	GlobalLT("EXTRACOUNT2","MYAREA",3)
+	GlobalLT("EXTRACOUNT2","MYAREA",4)
 	OR(2)
 		Difficulty(HARD)
 		Difficulty(HARDEST)
@@ -59,23 +80,23 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9OGYYY",0)  // Greater Ghoul - Goule majeure
+		CreateCreatureOffScreen("D9OGYYY",S)  // Goule Majeure
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DJJJ",0)  // Grimwarder
+		CreateCreatureOffScreen("D9DJJJ",S)  // Grimwarder
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9MFVVV",0)  // Fledging Vampire female - Vampire novice
+		CreateCreatureOffScreen("d9MFVVV",S)  // Vampire novice
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9MFVFV",0)  // Fledging Vampire - Vampire novice
+		CreateCreatureOffScreen("d9MFVFV",S)  // Vampire novice
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
-			RESPONSE #100
+	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9mver01",0)  // Vampire
+		CreateCreatureOffScreen("D9mver01",S)  // Elder Vampire
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -89,18 +110,18 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9MEM666",0)  // Vampire 13th Level
+		CreateCreatureOffScreen("D9MEM666",S)  // Ancient Vampire
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9OLO999",0)  // Ghoul Lord - Seigneur des goules
+		CreateCreatureOffScreen("D9OLO999",S)  // Seigneur Goule
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9MF444",0)   // Fledging Vampire male - Vampire novice
+		CreateCreatureOffScreen("d9MF444",S)  // Vampire novice
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
-			RESPONSE #100
+	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9mver02",0)  // Vampire 13th Level
+		CreateCreatureOffScreen("D9mver02",S)  // Elder Vampire
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

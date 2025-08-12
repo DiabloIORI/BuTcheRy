@@ -90,7 +90,7 @@ COPY_EXISTING ~sahgrd01.cre~ ~override/d9hgrd01.cre~
 	WRITE_ASCII SCRIPT_OVERRIDE ~d9dwctyz~ #8
 BUT_ONLY
 
-// Sahuagin Priestess novice - Prêtresse novice (9th Level)
+// Sahuagin Priestess novice - Pr tresse novice (9th Level)
 // --------------------------------------------------------
 COPY_EXISTING ~sahpr5.cre~ ~override/d9hpr5.cre~
 	SAY NAME1 @5601
@@ -127,7 +127,7 @@ COPY_EXISTING ~sahgrd01.cre~ ~override/d9hgrd08.cre~
 	WRITE_ASCII SCRIPT_OVERRIDE ~d9dwctyz~ #8
 BUT_ONLY
 
-// Sahuagin Elite Rebel - Rebelle d'élite (ranged 16th Level Fighter)
+// Sahuagin Elite Rebel - Rebelle d' lite (ranged 16th Level Fighter)
 // ------------------------------------------------------------------
 COPY_EXISTING ~sahchf01.cre~ ~override/d9hchf01.cre~
 	SAY NAME1 @5603
@@ -141,7 +141,7 @@ COPY_EXISTING ~sahchf01.cre~ ~override/d9hchf01.cre~
 	WRITE_ASCII SCRIPT_OVERRIDE ~d9dwctyz~ #8
 BUT_ONLY
 
-// Sahuagin Elite Rebel - Rebelle d'élite (melee 16th Level Fighter)
+// Sahuagin Elite Rebel - Rebelle d' lite (melee 16th Level Fighter)
 // -----------------------------------------------------------------
 COPY_EXISTING ~sahpri01.cre~ ~override/d9hpri01.cre~
 	SAY NAME1 @5603
@@ -155,7 +155,7 @@ COPY_EXISTING ~sahpri01.cre~ ~override/d9hpri01.cre~
 	WRITE_ASCII SCRIPT_OVERRIDE ~d9dwctyz~ #8
 BUT_ONLY
 
-// Sahuagin High Priestess - Grande prêtresse (20th Level) ==> NOT USED
+// Sahuagin High Priestess - Grande pr tresse (20th Level) ==> NOT USED
 // -------------------------------------------------------
 COPY_EXISTING ~sahpr1.cre~ ~override/d9hpr1.cre~
 	SAY NAME1 @5605
@@ -171,7 +171,7 @@ BUT_ONLY
 
 // Fake Sahuagin Rebel (melee 12th Level) - Gender EXTRA3
 // ------------------------------------------------------
-COPY_EXISTING ~sahgrd02.cre~ ~override/d9hgrd99.cre~
+COPY_EXISTING ~sahgrd02.cre~ ~override/d9hdEE99.cre~
 	WRITE_SHORT 0x024 100   // Current HP (vanilla = 81)
 	WRITE_SHORT 0x026 100   // Maximum HP (vanilla = 81)
 	WRITE_BYTE  0x052 8     // THAC0 (vanilla = 11, but 2 in BG2EE !!!)
@@ -180,7 +180,7 @@ COPY_EXISTING ~sahgrd02.cre~ ~override/d9hgrd99.cre~
 	WRITE_ASCII SCRIPT_OVERRIDE ~d9dwctyz~ #8
 BUT_ONLY
 
-// Sahuagin Priestess - Prêtresse (14th Level) - Gender EXTRA3
+// Sahuagin Priestess - Pr tresse (14th Level) - Gender EXTRA3
 // -----------------------------------------------------------
 COPY_EXISTING ~sahramb3.cre~ ~override/d9hramb3.cre~
 	SAY NAME1 @5604

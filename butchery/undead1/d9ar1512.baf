@@ -28,11 +28,7 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELARAA",0)  // Skeleton Archer - Squelette archer
-		IncrementGlobal("EXTRACOUNT","MYAREA",1)
-	RESPONSE #100
-		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELARZZ",0)  // Skeleton Archer - Squelette archer
+		CreateCreatureOffScreen("D9ELARZZ",S)  // Squelette archer
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -48,15 +44,31 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELARYY",0)  // Skeleton Archer - Squelette archer
+		CreateCreatureOffScreen("D9ELARYY",S)  // Squelette archer
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELSU11",0)  // Skeleton Warrior - Combattant squelette
+		CreateCreatureOffScreen("D9ELSU11",S)  // Combattant squelette
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELARBB",0)  // Skeleton Archer - Squelette archer
+		CreateCreatureOffScreen("D9ELARYY",S)  // Squelette archer
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9ELSU11",S)  // Combattant squelette
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9ELARYY",S)  // Squelette archer
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9ELSU11",S)  // Combattant squelette
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1512",1)
+		CreateCreatureOffScreen("D9ELARBB",S)  // Squelette archer
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -70,18 +82,18 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9SM12B",0)   // Experienced Skeleton Mage - Mage squelette expérimenté (12th Level)
+		CreateCreatureOffScreen("D9SM12B",S)  // magicien squelette experimente
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELWA",0)    // Skeleton Warrior - Combattant squelette
+		CreateCreatureOffScreen("D9ELWA",S)  // Combattant squelette
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9SC12B",0)   // Experienced Skeleton Cleric - Prêtre squelette expérimenté
+		CreateCreatureOffScreen("D9SC12B",S)  // pretre squelette experimente
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9ELARXX",0)  // Skeleton Archer - Squelette archer
-		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+		CreateCreatureOffScreen("D9ELARXX",S)  // Squelette archer
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

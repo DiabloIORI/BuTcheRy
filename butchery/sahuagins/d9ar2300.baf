@@ -2,14 +2,20 @@
  *    Sahuagins butchery in Sahuagin City    *
  * ========================================= */
 
+
 IF
-	Global("D9addvilain","AR2300",0)
+	Global("D9addvilainGG","AR2300",0)
+	OR(3)
+		PartyHasItem("key26")  // Dent de Sekolah
+		Dead("sahbeh01")  // Spectateur
+		Dead("Sahoty01")  // Ettin
 THEN
 	RESPONSE #100
- 		CreateCreature("D9HGRDOX",[4301.655],3) // Sahuagin Rebel novice
+		CreateCreature("D9HGRD0X",[4301.655],SWW)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
-		SetGlobal("D9addvilain","AR2300",1)
+		SetGlobal("D9addvilainGG","AR2300",1)
 END
+
 
 IF
 	Global("D9beginbutchery","AR2300",1)
@@ -29,11 +35,37 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",0)  // Rebel novice (melee)
+		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD01",0)  // Rebel novice (ranged)
+		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD01",S)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -49,15 +81,35 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HPR5",0)    // Priestess novice - Prêtresse novice
+		CreateCreatureOffScreen("D9HPR5",S)  // pretre novice
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",0)  // Rebel (melee)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD08",0)  // Rebel (ranged)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -71,18 +123,30 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HCHF01",0)  // Elite Rebel - Rebelle d'élite (ranged)
+		CreateCreatureOffScreen("d9hdEE99",S)
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HPRI01",0)  // Elite Rebel - Rebelle d'élite (melee)
+		CreateCreatureOffScreen("d9hdEE99",S)
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD99",0)  // Rebel (melee)
+		CreateCreatureOffScreen("d9hdEE99",S)
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HRAMB3",0)  // Priestess - Prêtresse
+		CreateCreatureOffScreen("D9HPRI01",S)  // Elite rebelle
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HPRI01",S)  // Elite rebelle
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HRAMB3",S)  // standard pretre
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2300",1)
+		CreateCreatureOffScreen("D9HCHF01",S)  // Elite rebelle
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

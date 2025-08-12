@@ -3,12 +3,12 @@
  * ========================================================= */
 
 IF
-	Global("D9addvilaii","AR2600",0)
+	Global("D9addvilaiiGG","AR2600",0)
 THEN
 	RESPONSE #100
  		CreateCreature("d9FGT0H",[4490.2278],12)  // Shadow Druid - Druide de l'ombre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
-		SetGlobal("D9addvilaii","AR2600",1)
+		SetGlobal("D9addvilaiiGG","AR2600",1)
 END
 
 IF
@@ -29,19 +29,15 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9CATJ",0)    // Panther - Panthère
+		CreateCreatureOffScreen("D9CATJ",S)  // Panthère
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9CAT",0)     // Spotted Lion - Lion tacheté
+		CreateCreatureOffScreen("D9CAT",S)  // Lion tacheté
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9LFWI01",0)  // Winter Wolf - Loup des glaces
-		IncrementGlobal("EXTRACOUNT","MYAREA",1)
-	RESPONSE #100
-		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9EARBL",0)   // Black Bear - Ours noir
+		CreateCreatureOffScreen("D9EARBL",S)  // Ours noir
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -57,19 +53,27 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("d9FGT02",0)    // Shadow Druid - Druide de l'ombre
+		CreateCreatureOffScreen("d9FGT02",S)  // Druide de l'ombre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("d9FGT04",0)   // Shadow Druid female - Druide de l'ombre
+		CreateCreatureOffScreen("d9FGT04",S)  // Druide de l'ombre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9VBEA9",0)   // Brown Bear - Ours brun
+		CreateCreatureOffScreen("D9VBEA9",S)  // Ours brun
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9AKEB01",0)  // Boalisk
+		CreateCreatureOffScreen("D9AKEB01",S)  // Boalisk
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2600",1)
+		CreateCreatureOffScreen("D9VBEA9",S)  // Ours brun
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2600",1)
+		CreateCreatureOffScreen("D9AKEB01",S)  // Boalisk
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -83,14 +87,22 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("d9RUID",0)    // Druid - Druide
+		CreateCreatureOffScreen("d9RUID",S)  // Druide
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9ARPO01",0)  // Mountain Bear - Ours de montagne
+		CreateCreatureOffScreen("D9ARPO01",S)  // Ours de montagne
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2600",1)
-		CreateCreatureOffScreen("D9IDSM02",0)  // Mutated Spider - Araignée mutante
+		CreateCreatureOffScreen("D9IDSM02",S)  // Araignée mutante
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2600",1)
+		CreateCreatureOffScreen("D9ARPO01",S)  // Ours de montagne
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR2600",1)
+		CreateCreatureOffScreen("D9IDSM02",S)  // Araignée mutante
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

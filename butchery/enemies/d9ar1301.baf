@@ -1,0 +1,15 @@
+IF
+	Global("D9addvilainh","AR1301",0)
+THEN
+	RESPONSE #100
+		SetGlobal("D9addvilainh","AR1301",1)
+		CreateCreature("GOLADA01",[1163.443],NWW)  // Golem d'adamantine
+		CreateCreature("trolic03",[1407.650],NWW)  // Troll du blizzard
+		CreateCreature("trolic03",[1407.650],NWW)  // Troll du blizzard
+		CreateCreature("trolic03",[1407.650],NWW)  // Troll du blizzard
+		CreateCreature("trolic03",[1407.650],NWW)  // Troll du blizzard
+		CreateCreature("umbhul02",[1797.947],NWW)  // Ancien Ombre des roches
+		CreateCreature("umbhul02",[1797.947],NWW)  // Ancien Ombre des roches
+		CreateCreature("umbhul02",[1797.947],NWW)  // Ancien Ombre des roches
+		CreateCreature("kpumb01",[1797.947],NWW)  // Ombre des roches
+END

@@ -267,6 +267,19 @@ COPY_EXISTING ~skelar01.cre~ ~override/d9elarvv.cre~
 	SET_BG2_PROFICIENCY ~PROFICIENCY2HANDED~ 2
 BUT_ONLY */
 
+/* Skeleton Archer - Elite Squelette archer (level 15) - Gender EXTRA3 
+// ---------------------------------------------------------------------------
+COPY_EXISTING ~skelar01.cre~ ~override/d9elarvr.cre~
+
+	WRITE_LONG  0x018 15                                                   // Creature Power Level (for summoning spells) / XP of the creature (for party members)
+ 	WRITE_BYTE  0x052 0                                                    // THAC0 (vanilla = 2)
+	WRITE_BYTE  0x238 19                                                   // Strength (vanilla = 9)
+	WRITE_BYTE  0x275 ~11~                                                 // Gender = EXTRA3
+	WRITE_ASCII SCRIPT_OVERRIDE ~d9dwctyz~ #8
+BUT_ONLY */
+
+
+
 // Skeleton Warrior - Combattant squelette (7th Level) - Gender EXTRA3
 // -------------------------------------------------------------------
 COPY_EXISTING ~skelwa.cre~ ~override/d9elwa.cre~

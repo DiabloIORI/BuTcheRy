@@ -31,6 +31,7 @@ LAF extend_area_script STR_VAR area = "ar1300" top = "%MOD_FOLDER%/arnise/d9ar13
 COPY_EXISTING ~icyuan01.cre~ ~override/d9yuan0x.cre~
 	WRITE_ASCII 0x248 ~D9YUAN0X~ #8
 	WRITE_ASCII DIALOG ~D9YUAN0X~ #8
+	WRITE_BYTE  0x275 ~8~  // Gender = EXTRA
 BUT_ONLY
 
 // Ice Troll - Troll des Glaces

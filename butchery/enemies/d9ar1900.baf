@@ -1,0 +1,72 @@
+IF
+	Global("D9addvilainhT","AR1900",0)
+THEN
+	RESPONSE #100
+		SetGlobal("D9addvilainhT","AR1900",1)
+		CreateCreature("WYVGRE01",[4333.1828],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[4035.2131],NWW)  // Wiverne majeure
+		CreateCreature("WYvern01",[4273.1795],NWW)  // Wiverne
+		CreateCreature("WYvbab01",[3297.2540],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[3297.2540],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[3297.2540],NWW)  // Bébé wiverne
+		CreateCreature("WYVGRE01",[3297.2540],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[3297.2540],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[3297.2540],NWW)  // Wiverne majeure
+		CreateCreature("spidsm02",[2495.2665],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[2495.2665],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[2495.2665],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[2495.2665],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[2495.2665],NWW)  // Araignée mutante
+		CreateCreature("icyuan02",[1601.2296],NWW)  // Yuan-Ti majeur
+		CreateCreature("icyuan02",[1601.2296],NWW)  // Yuan-Ti majeur
+		CreateCreature("icyuan02",[1601.2296],NWW)  // Yuan-Ti majeur
+		CreateCreature("icyuan05",[1601.2296],NWW)  // Prince Yuan-ti
+		CreateCreature("skelar01",[1601.2296],NWW)  // Squelette archer
+		CreateCreature("skelar01",[1601.2296],NWW)  // Squelette archer
+		CreateCreature("skelar01",[1601.2296],NWW)  // Squelette archer
+		CreateCreature("skelar01",[1601.2296],NWW)  // Squelette archer
+		CreateCreature("umbhul02",[1047.2803],NWW)  // Ancien Ombre des roches
+		CreateCreature("kpumb01",[1047.2803],NWW)  // Ombre des roches
+		CreateCreature("troLSN02",[1047.2803],NWW)  // Troll des neiges
+		CreateCreature("umbhul02",[1047.2803],NWW)  // Ancien Ombre des roches
+		CreateCreature("WYVGRE01",[374.1343],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[374.1343],NWW)  // Wiverne majeure
+		CreateCreature("WYvern01",[374.1343],NWW)  // Wiverne
+		CreateCreature("WYvbab01",[374.1343],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[374.1343],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[374.1343],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[374.1343],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[374.1343],NWW)  // Bébé wiverne
+		CreateCreature("WYvern01",[374.1343],NWW)  // Wiverne
+		CreateCreature("WYvern01",[374.1343],NWW)  // Wiverne
+		CreateCreature("troLSN02",[2210.1507],NWW)  // Troll des neiges
+		CreateCreature("WYvbab01",[2934.1574],NWW)  // Bébé wiverne
+		CreateCreature("WYVGRE01",[3076.1580],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[3076.1580],NWW)  // Wiverne majeure
+		CreateCreature("WYvern01",[3012.1472],NWW)  // Wiverne
+		CreateCreature("WYvern01",[3055.1672],NWW)  // Wiverne
+		CreateCreature("WYVGRE01",[1154.646],NWW)  // Wiverne majeure
+		CreateCreature("WYvbab01",[1149.724],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[1229.724],NWW)  // Bébé wiverne
+		CreateCreature("WYVGRE01",[1097.817],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[885.627],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[922.388],NWW)  // Wiverne majeure
+		CreateCreature("WYVGRE01",[688.727],NWW)  // Wiverne majeure
+		CreateCreature("WYvbab01",[688.727],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[688.727],NWW)  // Bébé wiverne
+		CreateCreature("WYVGRE01",[331.711],NWW)  // Wiverne majeure
+		CreateCreature("WYvbab01",[331.711],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[331.711],NWW)  // Bébé wiverne
+		CreateCreature("WYVGRE01",[82.695],NWW)  // Wiverne majeure
+		CreateCreature("WYvbab01",[82.695],NWW)  // Bébé wiverne
+		CreateCreature("WYvbab01",[82.695],NWW)  // Bébé wiverne
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("spidsm02",[3847.325],NWW)  // Araignée mutante
+		CreateCreature("umbhul02",[4647.1467],NWW)  // Ancien Ombre des roches
+END

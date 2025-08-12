@@ -126,13 +126,14 @@ Attack! And no mercy!~
 /* ------------------------------------------------------- *
  *  Butchery in the Druid Grove area (Animals and Druids)  *
  * ------------------------------------------------------- */
-@5201 = ~Shadow Ranger~
-//@5202 = ~Rôdeur de l'ombre d'élite~ // unused ==> DO NOT TRANSLATE
+@5201 = ~Novice Shadow Ranger~
+@5202 = ~Experienced Shadow Ranger~ 
 @5203 = ~Shadow Druid novice~
 @5204 = ~Shadow Druid~                // = strref #43845 (BG2EE)
 @5205 = ~Elite Shadow Druid~
 @5206 = ~Shadow Druid~
 @5207 = ~Elite Shadow Druid~
+@5208 = ~Elite Shadow Ranger~
 
 //@14650 = ~Avec la mort de leur druides, les forces de la nature semblent se manifester contre vous.~ DEPRECATED ==> DO NOT TRANSLATE
 

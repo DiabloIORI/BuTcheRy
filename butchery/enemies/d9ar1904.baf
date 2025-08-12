@@ -1,0 +1,17 @@
+IF
+	Global("D9addvilainhT","AR1904",0)
+THEN
+	RESPONSE #100
+		SetGlobal("D9addvilainhT","AR1904",1)
+
+		CreateCreature("icyuan05",[1168.1015],NWW)  // Prince Yuan-ti
+		CreateCreature("d9yuan08",[1596.921],NWW)
+		CreateCreature("d9yuan08",[1596.921],NWW)
+		CreateCreature("d9yuan08",[1307.916],NWW)
+		CreateCreature("d9yuan08",[1307.916],NWW)
+		CreateCreature("d9yuan08",[1034.1033],NWW)
+		CreateCreature("d9yuan08",[1034.1033],NWW)
+		CreateCreature("d9yuan08",[935.1322],NWW)
+		CreateCreature("d9yuan08",[935.1322],NWW)
+
+		END

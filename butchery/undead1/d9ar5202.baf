@@ -89,7 +89,7 @@ THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR5202",1)
 		CreateCreatureOffScreen("D9ELARXX",0)  // Skeleton Archer - Squelette archer
-		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR5202",1)
 		CreateCreatureOffScreen("D9mgre01",0)  // Greater Mummy - Momie majeure

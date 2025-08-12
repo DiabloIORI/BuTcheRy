@@ -1,6 +1,17 @@
 /* ========================================================= *
  *    Animals and Druids butchery in the Druid Grove area    *
  * ========================================================= */
+IF
+	OR(2)
+		Global("D9CERNDmoving","GLOBAL",0)
+		Global("CerndWentHunting","GLOBAL",1)
+	Global("HelpCernd","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("CERND",JumpToPoint([4027.657]))
+		SetGlobal("D9CERNDmoving","GLOBAL",1)
+END
+
 
 IF
 	Global("D9addvilain","AR1900",0)
@@ -22,36 +33,40 @@ END
 
 IF
 	Global("D9beginbutchery","AR1900",1)
-	GlobalLT("MaxSpawn","AR1900",28)
-	GlobalLT("EXTRACOUNT","MYAREA",5)
+	GlobalLT("MaxSpawn","AR1900",35)
+	GlobalLT("EXTRACOUNT","MYAREA",6)
 	ActionListEmpty()
 	InActiveArea(Myself)
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9EARBL",0)   // Black Bear - Ours noir
+		CreateCreatureOffScreen("D9EARBL",S)  // Ours noir
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("d9Valr2",0)   // Shadow Ranger - RÙdeur de l'ombre
+		CreateCreatureOffScreen("D9IDSM01",S)  // Petite araign√©e
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9UID6A",0)   // Shadow Druid novice - Druide de l'ombre novice
+		CreateCreatureOffScreen("D9CATT",S)  // Panth√®re
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9IDSM01",0)  // Small Spider - Petite araignÈe
+		CreateCreatureOffScreen("D9CAX",S)  // Lion tachet√©
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9LFWI01",0)  // Winter Wolf - Loup des glaces
+		CreateCreatureOffScreen("D9LFWI01",S)  // Loup des glaces
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9IDPH01",S)  // Araign√©e √©clipsante
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
 IF
 	Global("D9beginbutchery","AR1900",1)
-	GlobalLT("MaxSpawn","AR1900",28)
+	GlobalLT("MaxSpawn","AR1900",35)
 	GlobalLT("EXTRACOUNT2","MYAREA",1)
 	OR(2)
 		Difficulty(HARD)
@@ -61,29 +76,49 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9UID8A",0)  // Shadow Druid - Druide de l'ombre
+		CreateCreatureOffScreen("D9UID8A",S)  // Druide de l'ombre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9UID8B",0)  // Shadow Druid - Druidesse de l'ombre
+		CreateCreatureOffScreen("D9UID8B",S)  // Druide de l'ombre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9VBEAE",0)  // Brown Bear - Ours brun
+		CreateCreatureOffScreen("D9VBEAE",S)  // Ours brun
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9AKEB0X",0)  // Boalisk
+		CreateCreatureOffScreen("D9AKEB0X",S)  // Boalisk
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9IDSW01",0)  // Sword Spider - AraignÈe sabre
+		CreateCreatureOffScreen("D9IDSW01",S)  // Araign√©e-sabre
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9LFDI02",S)  // Loup noir
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9VBEAE",S)  // Ours brun
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9AKEB0X",S)  // Boalisk
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9IDSW01",S)  // Araign√©e-sabre
+		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9LFDI02",S)  // Loup noir
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
 IF
 	Global("D9beginbutchery","AR1900",1)
-	GlobalLT("MaxSpawn","AR1900",28)
+	GlobalLT("MaxSpawn","AR1900",35)
 	GlobalLT("EXTRACOUNT3","MYAREA",1)
 	Difficulty(HARDEST)
 	ActionListEmpty()
@@ -91,18 +126,30 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9UID10A",0)  // Elite Shadow Druid - Druide de l'ombre d'Èlite
+		CreateCreatureOffScreen("D9UID10A",S)  // Druide de l'ombre d'elite
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9UID10B",0)  // Elite Shadow Druid - Druidesse de l'ombre d'Èlite
+		CreateCreatureOffScreen("D9UID10B",S)  // Druide de l'ombre d'elite
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9IDSM02",0)  // Mutated Spider - AraignÈe mutante
+		CreateCreatureOffScreen("D9IDSM02",S)  // Araign√©e mutante
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
-			RESPONSE #100
+	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1900",1)
-		CreateCreatureOffScreen("D9ARPO01",0)  // Mountain Bear - Ours de montagne
+		CreateCreatureOffScreen("D9ARPO01",S)  // Ours de montagne
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9IDSM02",S)  // Araign√©e mutante
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9ARPO01",S)  // Ours de montagne
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR1900",1)
+		CreateCreatureOffScreen("D9AKEB0D",S)  // Boalisk
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

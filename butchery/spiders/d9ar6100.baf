@@ -67,6 +67,6 @@ THEN
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR6100",1)
-		CreateCreatureOffScreen("D9IDGI01",0)  // Giant Spider - Araignée géante
+		CreateCreatureOffScreen("d9idgi03",0)  // Giant Spider - Araignée géante
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

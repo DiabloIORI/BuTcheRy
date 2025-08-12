@@ -1,0 +1,14 @@
+IF
+	Global("D9addvilainh","AR1401",0)
+THEN
+	RESPONSE #100
+		SetGlobal("D9addvilainh","AR1401",1)
+		CreateCreature("VAMEMI01",[1633.752],NW)  // Ancient Vampire
+		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
+		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
+		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
+		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
+		CreateCreature("GHOGR01",[1633.752],NW)  // Goule Majeure
+		CreateCreature("GHOGR01",[1633.752],NW)  // Goule Majeure
+		CreateCreature("GHOGR01",[1633.752],NW)  // Goule Majeure
+END

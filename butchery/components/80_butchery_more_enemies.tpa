@@ -53,9 +53,19 @@ LAF extend_area_script STR_VAR area = "ar1106" top = "%MOD_FOLDER%/enemies/d9ar1
 LAF extend_area_script STR_VAR area = "ar1201" top = "%MOD_FOLDER%/enemies/d9ar1201.baf" END // Firkraag's Entrance
 LAF extend_area_script STR_VAR area = "ar1202" top = "%MOD_FOLDER%/enemies/d9ar1202.baf" END // Firkaag's Maze
 
+LAF extend_area_script STR_VAR area = "ar1300" top = "%MOD_FOLDER%/enemies/d9ar1300.baf" END // Nalia keep outside
+LAF extend_area_script STR_VAR area = "ar1301" top = "%MOD_FOLDER%/enemies/d9ar1301.baf" END // Nalia keep, torgal area
+
+LAF extend_area_script STR_VAR area = "ar1404" top = "%MOD_FOLDER%/enemies/d9ar1404.baf" END // Umar runes
+LAF extend_area_script STR_VAR area = "ar1401" top = "%MOD_FOLDER%/enemies/d9ar1401.baf" END // amaunator temple
+
+LAF extend_area_script STR_VAR area = "ar1900" top = "%MOD_FOLDER%/enemies/d9ar1900.baf" END // DRUID GROOVE AREA
+LAF extend_area_script STR_VAR area = "ar1904" top = "%MOD_FOLDER%/enemies/d9ar1904.baf" END // DRUID GROOVE AREA
+
 LAF extend_area_script STR_VAR area = "ar2013" top = "%MOD_FOLDER%/enemies/d9ar2013.baf" END // Trademeet Crypt
 
 LAF extend_area_script STR_VAR area = "ar2602" top = "%MOD_FOLDER%/enemies/d9ar2602.baf" END // Forest of Tethyr: Cave in Woods to Suldanessellar
+
 
 /* ---------------------- *
  *  Installing Creatures  *
@@ -74,7 +84,28 @@ BUT_ONLY
 // Miscellaneous
 // -------------
 COPY_EXISTING ~otyugh.cre~   ~override/d9yugh.cre~   // Otyugh
-              ~jelloc.cre~   ~override/d9lloc.cre~   // Ochre Jelly - Gelée ocre
-              ~jelmus01.cre~ ~override/d9lmus01.cre~ // Mustard Jelly - Gelée moutarde
+              ~jelloc.cre~   ~override/d9lloc.cre~   // Ochre Jelly - Gel e ocre
+              ~jelmus01.cre~ ~override/d9lmus01.cre~ // Mustard Jelly - Gel e moutarde
 	WRITE_ASCII SCRIPT_OVERRIDE ~SHOUT~ #8
 BUT_ONLY
+
+
+
+
+
+// Greater Yuan-ti (ranged) WITHOUT FOLLOWING SCRIPT/GENDER EXTRA- Yuan-Ti majeur
+// -----------------------------------------
+COPY_EXISTING ~icyuan02.cre~ ~override/d9yuan08.cre~
+	REMOVE_CRE_ITEM ~SW1H04~
+	ADD_CRE_ITEM ~BOW01~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP // Composite Longbow
+	ADD_CRE_ITEM ~SW1H04~ #0 #0 #0 ~NONE~ ~WEAPON2~      // Long Sword
+	ADD_CRE_ITEM ~LEAT04~ #0 #0 #0 ~NONE~ ~ARMOR~        // Studded Leather Armor
+	ADD_CRE_ITEM ~AROW04~ #20 #0 #0 ~NONE~ ~QUIVER1~     // Acid Arrow +1
+	ADD_CRE_ITEM ~AROW11~ #20 #0 #0 ~NONE~ ~QUIVER2~     // Arrow +2
+	ADD_CRE_ITEM ~AROW01~ #40 #0 #0 ~NONE~ ~QUIVER3~     // Arrow
+	WRITE_BYTE  0x052 7                                  // THAC0 (vanilla = 9)
+	WRITE_BYTE  0x270 255                                // Enemy
+	WRITE_ASCII SCRIPT_DEFAULT ~WTARSGT~ #8
+	SET_BG2_PROFICIENCY ~PROFICIENCYLONGBOW~ 5
+BUT_ONLY
+

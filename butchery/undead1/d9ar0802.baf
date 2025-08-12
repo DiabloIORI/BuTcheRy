@@ -84,5 +84,5 @@ THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0802",1)
 		CreateCreatureOffScreen("D9ELARXX",0)  // Skeleton Archer - Squelette archer
-		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
+		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

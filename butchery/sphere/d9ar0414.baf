@@ -25,28 +25,36 @@ END
 
 IF
 	Global("D9beginbutchery","AR0414",1)
-	GlobalLT("MaxSpawn","AR0414",55)
+	GlobalLT("MaxSpawn","AR0414",75)
 	GlobalLT("EXTRACOUNT","MYAREA",6)
 	ActionListEmpty()
 	InActiveArea(Myself)
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9ELARTT",0)  // Skeleton Archer
+		CreateCreatureOffScreen("D9ELARTT",S)  // Squelette archer
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("d9ast0Y",0)  // Ghast - Bl�me
+		CreateCreatureOffScreen("d9ast0Y",S)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9P01",0)  // Imp - Diablotin
+		CreateCreatureOffScreen("D9P01",S)  // Diablotin
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR0414",1)
+		CreateCreatureOffScreen("d9ast0Y",S)  // Blême
+		IncrementGlobal("EXTRACOUNT","MYAREA",1)
+	RESPONSE #100
+		IncrementGlobal("MaxSpawn","AR0414",1)
+		CreateCreatureOffScreen("D9P01",S)  // Diablotin
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
 IF
 	Global("D9beginbutchery","AR0414",1)
-	GlobalLT("MaxSpawn","AR0414",55)
+	GlobalLT("MaxSpawn","AR0414",75)
 	GlobalLT("EXTRACOUNT2","MYAREA",4)
 	OR(2)
 		Difficulty(HARD)
@@ -56,25 +64,25 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9PQUA01",0)  // Quasit
+		CreateCreatureOffScreen("D9PQUA01",S)  // Quasit
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9SALFIR",0)  // Salamander
+		CreateCreatureOffScreen("D9SALFIR",S)  // Salamandre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9EFEL01",0)  // Lesser Fire Elemental
+		CreateCreatureOffScreen("D9EFEL01",S)  // Élémentaire de feu mineur
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9FIR",0)  // Fire Elemental
+		CreateCreatureOffScreen("D9FIR",S)  // Élémentaire de feu
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
 IF
 	Global("D9beginbutchery","AR0414",1)
-	GlobalLT("MaxSpawn","AR0414",55)
+	GlobalLT("MaxSpawn","AR0414",75)
 	GlobalLT("EXTRACOUNT3","MYAREA",1)
 	Difficulty(HARDEST)
 	ActionListEmpty()
@@ -82,18 +90,18 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9MSUC01",0)  // Succubus
+		CreateCreatureOffScreen("D9MSUC01",S)  // Succube
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9YDEM01",0)  // Tanar'ri
+		CreateCreatureOffScreen("D9YDEM01",S)  // Tanar'ri
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9SDEM04",0)  // Maurezhi
+		CreateCreatureOffScreen("D9SDEM04",S)  // Maurezhi
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9lgrfir",0)  // Salamander Noble
+		CreateCreatureOffScreen("D9lgrfir",S)  // Salamandre noble
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

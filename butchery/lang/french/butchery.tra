@@ -127,13 +127,14 @@ quartier !~
 /* ------------------------------------------------------- *
  *  Butchery in the Druid Grove area (Animals and Druids)  *
  * ------------------------------------------------------- */
-@5201 = ~Rôdeur de l'ombre~
-//@5202 = ~Rôdeur de l'ombre d'élite~ // unused ==> DO NOT TRANSLATE
+@5201 = ~Rôdeur de l'ombre novice~
+@5202 = ~Rôdeur de l'ombre expérimenté~  
 @5203 = ~Druide de l'ombre novice~
-@5204 = ~Druide de l'ombre~           // = strref #43845 (BG2EE)
+@5204 = ~Druide de l'ombre expérimenté~           // = strref #43845 (BG2EE)
 @5205 = ~Druide de l'ombre d'élite~
 @5206 = ~Druidesse de l'ombre~
 @5207 = ~Druidesse de l'ombre d'élite~
+@5208 = ~Rôdeur de l'ombre d'élite~
 
 //@14650 = ~Avec la mort de leur druides, les forces de la nature semblent se manifester contre vous.~ DEPRECATED ==> DO NOT TRANSLATE
 
