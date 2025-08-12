@@ -73,6 +73,7 @@ COPY ~%MOD_FOLDER%/tazok1/d9ogrga2.cre~ ~override~
 // ------------------------------------
 COPY_EXISTING ~ogrema01.cre~ ~override/d9ogmage.cre~
 	WRITE_ASCII SCRIPT_OVERRIDE ~GENSHT01~ #8
+	WRITE_ASCII DEATHVAR ~ogrema01~ // Wasn't set
 
 // Groumf (L13 Berserker) and Bourrinos (L11 Barbarian) protect TAZOK. d9gro ???
 // -----------------------------------------------------------------------------

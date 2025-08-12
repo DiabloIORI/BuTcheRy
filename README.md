@@ -2,7 +2,7 @@
 ![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/butchery?include_prereleases&color=gold)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/butchery?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platforms&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=French%20%7C%20English%20%7C%20Russian&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=French%20%7C%20English%20%7C%20Russian%20%7C%20Spanish%20%7C%20SChinese&color=limegreen)
 
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII:ToB%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 <a href="README-FR.md"><img align="right" src="butchery/readme/images/fr-flag-32.png" title="Readme français"></a>
@@ -763,6 +763,14 @@ Equipment, stats and proficiencies are tweaked a bit, especially DigDag's.
 
 
 ## <a name="versions" id="versions"></a>Version History
+
+##### Version 5.0.2 &nbsp;(August, 2025)
+
+- Added Spanish language by alaisFcZ.
+- Added Simplified chinese language by huma628.
+- Minor upgrade from DrAzTiK :
+    - Some battles have been reworked.
+    - Certain creatures have been added or rebalanced.
 
 ##### Version 5.0.0 &nbsp;(November 5, 2021)
 
