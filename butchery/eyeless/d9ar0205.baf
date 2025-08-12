@@ -39,11 +39,11 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9mbju01",S)  // Zombie
+		CreateCreatureOffScreen("d9mbju01",0)  // Zombie
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9ast0G",S)  // Blême
+		CreateCreatureOffScreen("d9ast0G",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -59,31 +59,31 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9AIWA2",S)  // Prêtre aveugle
+		CreateCreatureOffScreen("d9AIWA2",0)  // Prêtre aveugle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9guard6",S)  // Garde d'élite
+		CreateCreatureOffScreen("d9guard6",0)  // Garde d'élite
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("D9OGRRT",S)  // Goule Majeure
+		CreateCreatureOffScreen("D9OGRRT",0)  // Goule Majeure
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9guard6",S)  // Garde d'élite
+		CreateCreatureOffScreen("d9guard6",0)  // Garde d'élite
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("D9OGRRT",S)  // Goule Majeure
+		CreateCreatureOffScreen("D9OGRRT",0)  // Goule Majeure
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9guard6",S)  // Garde d'élite
+		CreateCreatureOffScreen("d9guard6",0)  // Garde d'élite
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("D9OGRRT",S)  // Goule Majeure
+		CreateCreatureOffScreen("D9OGRRT",0)  // Goule Majeure
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -97,26 +97,26 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9ltbh3",S)  // Spectateur
+		CreateCreatureOffScreen("d9ltbh3",0)  // Spectateur
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("D9BRAIm",S)  // Prêtre aveugle
+		CreateCreatureOffScreen("D9BRAIm",0)  // Prêtre aveugle
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9ltbh1",S)  // Gauth
+		CreateCreatureOffScreen("d9ltbh1",0)  // Gauth
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9guard4",S)  // Garde d'élite
+		CreateCreatureOffScreen("d9guard4",0)  // Garde d'élite
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9guard4",S)  // Garde d'élite
+		CreateCreatureOffScreen("d9guard4",0)  // Garde d'élite
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0205",1)
-		CreateCreatureOffScreen("d9guard4",S)  // Garde d'élite
+		CreateCreatureOffScreen("d9guard4",0)  // Garde d'élite
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

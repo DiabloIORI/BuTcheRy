@@ -3,18 +3,18 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("D9addvilainh","AR1404",1)
-		CreateCreature("d9sm7",[1508.1236],NWW)  // magicien squelette novice
-		CreateCreature("d9sc7",[1508.1236],NWW)  // pretre squelette novice
-		CreateCreature("d9sc12",[1508.1236],NWW)  // pretre squelette experimente
-		CreateCreature("SKELWA03",[1508.1236],NWW)  // Combattant squelette
-		CreateCreature("SKELWA02",[1508.1236],NWW)  // Combattant squelette
-		CreateCreature("SKELWA02",[1508.1236],NWW)  // Combattant squelette
-		CreateCreature("SKELAR01",[1508.1236],NWW)  // Squelette archer
-		CreateCreature("SKELAR01",[1508.1236],NWW)  // Squelette archer
-		CreateCreature("d9sm7",[4346.582],NWW)  // magicien squelette novice
-		CreateCreature("d9sm12",[4346.582],NWW)  // magicien squelette experimente
-		CreateCreature("SKELWA02",[4346.582],NWW)  // Combattant squelette
-		CreateCreature("SKELWA03",[4346.582],NWW)  // Combattant squelette
-		CreateCreature("d9sc7",[4346.582],NWW)  // pretre squelette novice
-		CreateCreature("d9sc12",[4346.582],NWW)  // pretre squelette experimente
+		CreateCreature("d9sm7",[1508.1236],5)  // magicien squelette novice
+		CreateCreature("d9sc7",[1508.1236],5)  // pretre squelette novice
+		CreateCreature("d9sc12",[1508.1236],5)  // pretre squelette experimente
+		CreateCreature("SKELWA03",[1508.1236],5)  // Combattant squelette
+		CreateCreature("SKELWA02",[1508.1236],5)  // Combattant squelette
+		CreateCreature("SKELWA02",[1508.1236],5)  // Combattant squelette
+		CreateCreature("SKELAR01",[1508.1236],5)  // Squelette archer
+		CreateCreature("SKELAR01",[1508.1236],5)  // Squelette archer
+		CreateCreature("d9sm7",[4346.582],5)  // magicien squelette novice
+		CreateCreature("d9sm12",[4346.582],5)  // magicien squelette experimente
+		CreateCreature("SKELWA02",[4346.582],5)  // Combattant squelette
+		CreateCreature("SKELWA03",[4346.582],5)  // Combattant squelette
+		CreateCreature("d9sc7",[4346.582],5)  // pretre squelette novice
+		CreateCreature("d9sc12",[4346.582],5)  // pretre squelette experimente
 END

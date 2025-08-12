@@ -127,12 +127,13 @@ le nez !~
  *  Butchery in the Druid Grove area (Animals and Druids)  *
  * ------------------------------------------------------- */
 @5201 = ~Explorador sombrío~
-//@5202 = ~Rôdeur de l'ombre d'élite~ // unused ==> DO NOT TRANSLATE
+@5202 = ~Experienced Shadow Ranger~ // To TRANSLATE
 @5203 = ~Druida de las Sombras novato~
 @5204 = ~Druida de las Sombras~                // = strref #43845 (BG2EE)
 @5205 = ~Druida de las Sombras de élite~
 @5206 = ~Druida de las Sombras~
 @5207 = ~Druida de las Sombras de Élite~
+@5208 = ~Elite Shadow Ranger~ // To TRANSLATE
 
 //@14650 = ~Avec la mort de leur druides, les forces de la nature semblent se manifester contre vous.~ DEPRECATED ==> DO NOT TRANSLATE
 

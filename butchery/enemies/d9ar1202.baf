@@ -3,23 +3,23 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("D9addvilainX","AR1202",1)
-		CreateCreature("GOLIRO01",[1768.2245],SW)  // Golem de fer
-		CreateCreature("ORC03",[1745.2181],SW)  // Prêtre Orque
-		CreateCreature("ORC04",[1867.2259],SW)  // Magicien Orque
-		CreateCreature("ORC01",[1765.2245],SW)  // Orque
-		CreateCreature("ORC01",[1768.2245],SW)  // Orque
-		CreateCreature("ORC01",[1765.2245],SW)  // Orque
-		CreateCreature("ORC01",[1768.2245],SW)  // Orque
-		CreateCreature("ORC03",[1569.617],SW)  // Prêtre Orque
-		CreateCreature("ORC04",[1162.1431],SW)  // Magicien Orque
-		CreateCreature("ORC04",[779.715],SW)  // Magicien Orque
-		CreateCreature("ORC04",[2284.785],SW)  // Magicien Orque
-		CreateCreature("VAMEMI01",[3420.736],SW)  // Ancient Vampire
-		CreateCreature("VAMEMI01",[3420.736],SW)  // Ancient Vampire
-		CreateCreature("VAMEMI01",[3420.736],SW)  // Ancient Vampire
-		CreateCreature("GHOGR01",[3420.736],SW)  // Goule Majeure
-		CreateCreature("GHOGR01",[3420.736],SW)  // Goule Majeure
-		CreateCreature("VAMFLM01",[3420.736],SW)  // Vampire novice
-		CreateCreature("VAMFLF01",[3420.736],SW)  // Vampire novice
+		CreateCreature("GOLIRO01",[1768.2245],2)  // Golem de fer
+		CreateCreature("ORC03",[1745.2181],2)  // Prêtre Orque
+		CreateCreature("ORC04",[1867.2259],2)  // Magicien Orque
+		CreateCreature("ORC01",[1765.2245],2)  // Orque
+		CreateCreature("ORC01",[1768.2245],2)  // Orque
+		CreateCreature("ORC01",[1765.2245],2)  // Orque
+		CreateCreature("ORC01",[1768.2245],2)  // Orque
+		CreateCreature("ORC03",[1569.617],2)  // Prêtre Orque
+		CreateCreature("ORC04",[1162.1431],2)  // Magicien Orque
+		CreateCreature("ORC04",[779.715],2)  // Magicien Orque
+		CreateCreature("ORC04",[2284.785],2)  // Magicien Orque
+		CreateCreature("VAMEMI01",[3420.736],2)  // Ancient Vampire
+		CreateCreature("VAMEMI01",[3420.736],2)  // Ancient Vampire
+		CreateCreature("VAMEMI01",[3420.736],2)  // Ancient Vampire
+		CreateCreature("GHOGR01",[3420.736],2)  // Goule Majeure
+		CreateCreature("GHOGR01",[3420.736],2)  // Goule Majeure
+		CreateCreature("VAMFLM01",[3420.736],2)  // Vampire novice
+		CreateCreature("VAMFLF01",[3420.736],2)  // Vampire novice
 END
 

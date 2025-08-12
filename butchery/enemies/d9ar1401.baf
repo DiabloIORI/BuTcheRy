@@ -3,12 +3,12 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("D9addvilainh","AR1401",1)
-		CreateCreature("VAMEMI01",[1633.752],NW)  // Ancient Vampire
-		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
-		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
-		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
-		CreateCreature("VAMFLM01",[1633.752],NW)  // Vampire novice
-		CreateCreature("GHOGR01",[1633.752],NW)  // Goule Majeure
-		CreateCreature("GHOGR01",[1633.752],NW)  // Goule Majeure
-		CreateCreature("GHOGR01",[1633.752],NW)  // Goule Majeure
+		CreateCreature("VAMEMI01",[1633.752],6)  // Ancient Vampire
+		CreateCreature("VAMFLM01",[1633.752],6)  // Vampire novice
+		CreateCreature("VAMFLM01",[1633.752],6)  // Vampire novice
+		CreateCreature("VAMFLM01",[1633.752],6)  // Vampire novice
+		CreateCreature("VAMFLM01",[1633.752],6)  // Vampire novice
+		CreateCreature("GHOGR01",[1633.752],6)  // Goule Majeure
+		CreateCreature("GHOGR01",[1633.752],6)  // Goule Majeure
+		CreateCreature("GHOGR01",[1633.752],6)  // Goule Majeure
 END

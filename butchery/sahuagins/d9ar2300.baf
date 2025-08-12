@@ -11,7 +11,7 @@ IF
 		Dead("Sahoty01")  // Ettin
 THEN
 	RESPONSE #100
-		CreateCreature("D9HGRD0X",[4301.655],SWW)  // rebelle novice
+		CreateCreature("D9HGRD0X",[4301.655],3)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		SetGlobal("D9addvilainGG","AR2300",1)
 END
@@ -35,37 +35,37 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD02",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD02",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD02",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD02",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD02",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD02",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD02",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD01",S)  // rebelle novice
+		CreateCreatureOffScreen("D9HGRD01",0)  // rebelle novice
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -81,35 +81,35 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HPR5",S)  // pretre novice
+		CreateCreatureOffScreen("D9HPR5",0)  // pretre novice
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HGRD09",S)  // standard rebelle
+		CreateCreatureOffScreen("D9HGRD09",0)  // standard rebelle
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -123,30 +123,30 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("d9hdEE99",S)
+		CreateCreatureOffScreen("d9hdEE99",0)
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("d9hdEE99",S)
+		CreateCreatureOffScreen("d9hdEE99",0)
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("d9hdEE99",S)
+		CreateCreatureOffScreen("d9hdEE99",0)
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HPRI01",S)  // Elite rebelle
+		CreateCreatureOffScreen("D9HPRI01",0)  // Elite rebelle
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HPRI01",S)  // Elite rebelle
+		CreateCreatureOffScreen("D9HPRI01",0)  // Elite rebelle
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HRAMB3",S)  // standard pretre
+		CreateCreatureOffScreen("D9HRAMB3",0)  // standard pretre
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR2300",1)
-		CreateCreatureOffScreen("D9HCHF01",S)  // Elite rebelle
+		CreateCreatureOffScreen("D9HCHF01",0)  // Elite rebelle
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

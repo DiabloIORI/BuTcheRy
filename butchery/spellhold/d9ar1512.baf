@@ -32,35 +32,35 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		CreateCreatureOffScreen("D9DFGAAA",0)  // Grimwarder
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		CreateCreatureOffScreen("d9astHH",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		CreateCreatureOffScreen("D9DFGAAA",0)  // Grimwarder
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		CreateCreatureOffScreen("d9astHH",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		CreateCreatureOffScreen("D9DFGAAA",0)  // Grimwarder
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		CreateCreatureOffScreen("d9astHH",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DFGAAA",S)  // Grimwarder
+		CreateCreatureOffScreen("D9DFGAAA",0)  // Grimwarder
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9astHH",S)  // Blême
+		CreateCreatureOffScreen("d9astHH",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
@@ -80,23 +80,23 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9OGYYY",S)  // Goule Majeure
+		CreateCreatureOffScreen("D9OGYYY",0)  // Goule Majeure
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9DJJJ",S)  // Grimwarder
+		CreateCreatureOffScreen("D9DJJJ",0)  // Grimwarder
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9MFVVV",S)  // Vampire novice
+		CreateCreatureOffScreen("d9MFVVV",0)  // Vampire novice
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9MFVFV",S)  // Vampire novice
+		CreateCreatureOffScreen("d9MFVFV",0)  // Vampire novice
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9mver01",S)  // Elder Vampire
+		CreateCreatureOffScreen("D9mver01",0)  // Elder Vampire
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -110,18 +110,18 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9MEM666",S)  // Ancient Vampire
+		CreateCreatureOffScreen("D9MEM666",0)  // Ancient Vampire
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9OLO999",S)  // Seigneur Goule
+		CreateCreatureOffScreen("D9OLO999",0)  // Seigneur Goule
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("d9MF444",S)  // Vampire novice
+		CreateCreatureOffScreen("d9MF444",0)  // Vampire novice
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1512",1)
-		CreateCreatureOffScreen("D9mver02",S)  // Elder Vampire
+		CreateCreatureOffScreen("D9mver02",0)  // Elder Vampire
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

@@ -32,23 +32,23 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9ELARTT",S)  // Squelette archer
+		CreateCreatureOffScreen("D9ELARTT",0)  // Squelette archer
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("d9ast0Y",S)  // Blême
+		CreateCreatureOffScreen("d9ast0Y",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9P01",S)  // Diablotin
+		CreateCreatureOffScreen("D9P01",0)  // Diablotin
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("d9ast0Y",S)  // Blême
+		CreateCreatureOffScreen("d9ast0Y",0)  // Blême
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9P01",S)  // Diablotin
+		CreateCreatureOffScreen("D9P01",0)  // Diablotin
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -64,19 +64,19 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9PQUA01",S)  // Quasit
+		CreateCreatureOffScreen("D9PQUA01",0)  // Quasit
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9SALFIR",S)  // Salamandre
+		CreateCreatureOffScreen("D9SALFIR",0)  // Salamandre
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9EFEL01",S)  // Élémentaire de feu mineur
+		CreateCreatureOffScreen("D9EFEL01",0)  // Élémentaire de feu mineur
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9FIR",S)  // Élémentaire de feu
+		CreateCreatureOffScreen("D9FIR",0)  // Élémentaire de feu
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -90,18 +90,18 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9MSUC01",S)  // Succube
+		CreateCreatureOffScreen("D9MSUC01",0)  // Succube
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9YDEM01",S)  // Tanar'ri
+		CreateCreatureOffScreen("D9YDEM01",0)  // Tanar'ri
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9SDEM04",S)  // Maurezhi
+		CreateCreatureOffScreen("D9SDEM04",0)  // Maurezhi
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR0414",1)
-		CreateCreatureOffScreen("D9lgrfir",S)  // Salamandre noble
+		CreateCreatureOffScreen("D9lgrfir",0)  // Salamandre noble
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

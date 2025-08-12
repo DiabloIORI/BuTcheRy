@@ -9,7 +9,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("D9addvilain","AR1300",1)
-		CreateCreature("D9YUAN0X",[2608.3289],E)  // Yuan-Ti
+		CreateCreature("D9YUAN0X",[2608.3289],12)  // Yuan-Ti
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -36,23 +36,23 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLIC01",S)  // Troll des Glaces - Troll des glaces
+		CreateCreatureOffScreen("D9OLIC01",0)  // Troll des Glaces - Troll des glaces
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLL01",S)  // Troll
+		CreateCreatureOffScreen("D9OLL01",0)  // Troll
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLIC01",S)  // Troll des Glaces - Troll des glaces
+		CreateCreatureOffScreen("D9OLIC01",0)  // Troll des Glaces - Troll des glaces
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLL01",S)  // Troll
+		CreateCreatureOffScreen("D9OLL01",0)  // Troll
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9YUAN02",S)  // Yuan-Ti majeur
+		CreateCreatureOffScreen("D9YUAN02",0)  // Yuan-Ti majeur
 		IncrementGlobal("EXTRACOUNT","MYAREA",1)
 END
 
@@ -68,31 +68,31 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLGI01",S)  // Troll géant
+		CreateCreatureOffScreen("D9OLGI01",0)  // Troll géant
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLGI01",S)  // Troll géant
+		CreateCreatureOffScreen("D9OLGI01",0)  // Troll géant
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLSP01",S)  // Troll spectral
+		CreateCreatureOffScreen("D9OLSP01",0)  // Troll spectral
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLL0R",S)  // Troll
+		CreateCreatureOffScreen("D9OLL0R",0)  // Troll
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLL0R",S)  // Troll
+		CreateCreatureOffScreen("D9OLL0R",0)  // Troll
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLL0R",S)  // Troll
+		CreateCreatureOffScreen("D9OLL0R",0)  // Troll
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("d9umb01",S)  // Ombre des roches
+		CreateCreatureOffScreen("d9umb01",0)  // Ombre des roches
 		IncrementGlobal("EXTRACOUNT2","MYAREA",1)
 END
 
@@ -106,10 +106,10 @@ IF
 THEN
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLSI01",S)  // Troll Fantôme
+		CreateCreatureOffScreen("D9OLSI01",0)  // Troll Fantôme
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 	RESPONSE #100
 		IncrementGlobal("MaxSpawn","AR1300",1)
-		CreateCreatureOffScreen("D9OLL0Y",S)  // Troll
+		CreateCreatureOffScreen("D9OLL0Y",0)  // Troll
 		IncrementGlobal("EXTRACOUNT3","MYAREA",1)
 END

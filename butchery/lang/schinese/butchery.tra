@@ -119,12 +119,13 @@ le nez !~
  *  Butchery in the Druid Grove area (Animals and Druids)  *
  * ------------------------------------------------------- */
 @5201 = ~影之游侠~
-//@5202 = ~R鬱eur de l'ombre d'閘ite~ // unused ==> DO NOT TRANSLATE
+@5202 = ~Experienced Shadow Ranger~ // To TRANSLATE
 @5203 = ~暗影德鲁伊新手~
 @5204 = ~暗影德鲁伊~                // = strref #43845 (BG2EE)
 @5205 = ~精英暗影德鲁伊~
 @5206 = ~暗影德鲁伊~
 @5207 = ~精英暗影德鲁伊~
+@5208 = ~Elite Shadow Ranger~ // To TRANSLATE
 
 //@14650 = ~Avec la mort de leur druides, les forces de la nature semblent se manifester contre vous.~ DEPRECATED ==> DO NOT TRANSLATE
 

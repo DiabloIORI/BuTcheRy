@@ -128,12 +128,13 @@ le nez !~
  *  Butchery in the Druid Grove area (Animals and Druids)  *
  * ------------------------------------------------------- */
 @5201 = ~Теневой рейнджер~
-//@5202 = ~Rodeur de l'ombre d'elite~ // unused ==> DO NOT TRANSLATE
+@5202 = ~Experienced Shadow Ranger~ // To TRANSLATE
 @5203 = ~Теневой друид послушник~
 @5204 = ~Теневой друид~                // = strref #43845 (BG2EE)
 @5205 = ~Элитный теневой друид~
 @5206 = ~Теневой друид~
 @5207 = ~Элитный теневой друид~
+@5208 = ~Elite Shadow Ranger~ // To TRANSLATE
 
 //@14650 = ~Avec la mort de leur druides, les forces de la nature semblent se manifester contre vous.~ DEPRECATED ==> DO NOT TRANSLATE
 
