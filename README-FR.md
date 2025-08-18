@@ -1,8 +1,8 @@
 
-![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/butchery?include_prereleases&color=gold)<a name="top" id="top"> </a>
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/butchery?color=gold&label=date)
+![Latest Release](https://img.shields.io/github/v/release/The-Gate-Project/butchery?include_prereleases&color=gold&label=version%20)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/The-Gate-Project/butchery?color=gold&label=publi%C3%A9e%20le)
 ![Platform](https://img.shields.io/static/v1?label=plateformes&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
-![Language](https://img.shields.io/static/v1?label=langues&message=Fran%C3%A7ais%20%7C%20Anglais%20%7C%20Russe&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=langue&message=French%20%7C%20English%20%7C%20Russian%20%7C%20Spanish%20%7C%20SChinese&color=limegreen)
 
 ![Supported games](https://img.shields.io/static/v1?label=jeux%20support%C3%A9s&message=BGII:ToB%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 <a href="README.md"><img align="right" src="butchery/readme/images/uk-flag-32.png" title="English Readme"> <img align="right" src="butchery/readme/images/us-flag-32.png" title="English Readme"></a>
@@ -14,23 +14,24 @@
 BGT, BG2:EE et EET<h3>
 </div><br>
 
-**Auteur :** <a href="https://www.baldursgateworld.fr/lacouronne/members/draztik.html">DrAzTiK</a>  
+**Auteur :** <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=4383">DrAzTiK</a>  
 **Site du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/modules-crees-ou-en-cours-de-developpement/">La Couronne de Cuivre</a>  
 **Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/butchery/">BuTcHeRy</a>
 
+##
+
+<a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=4383"><img src="https://img.shields.io/badge/Crée%20par-DrAzTiK-blue.svg"/></a>
+![GitHub repo-size](https://img.shields.io/github/repo-size/The-Gate-Project/butchery?label=taille%20&style=plastic)
+<a href="#"><img src="https://api.visitorbadge.io/api/VisitorHit?user=The-Gate-Project&repo=butchery&countColor==red&style=plastic&label=visites%20" /></a>
+![Maintenance](https://img.shields.io/static/v1?label=maintenu%3F&message=yes&color=greenlight&style=plastic)
+![GitHub contributeurs](https://img.shields.io/github/contributors/The-Gate-Project/butchery?color=blueviolet&label=contributeurs%20&style=plastic)
+![Downloads](https://img.shields.io/github/downloads/The-Gate-Project/butchery/total?color=%2392403a&label=t%C3%A9l%C3%A9chargements)
+
 ## 
 
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/butchery?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev)
-![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/butchery?style=plastic&label=taille)
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/butchery?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) 
-![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=oui&color=greenlight&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/butchery?color=blueviolet&label=contributeurs&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/butchery?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+:page_facing_up: [Lisez-moi du mod](https://htmlpreview.github.io/?https://github.com/The-Gate-Project/BuTcheRy/blob/master/butchery/readme/butchery-readme-french.html)
 
-## 
-
-:page_facing_up: [Lisez-moi du mod](https://www.baldursgateworld.fr/filesmods/ModsBG/butchery-readme-french.html)
-
-:inbox_tray: [Télécharger le mod sur le site de La Couronne de Cuivre](https://www.baldursgateworld.fr/filesmods/ModsBG/butchery-v5.0.0.zip)<br>
+:inbox_tray: [Télécharger le mod sur le site de La Couronne de Cuivre](https://www.baldursgateworld.fr/viewtopic.php?t=34845)<br>
 
 ## 
 
@@ -831,7 +832,7 @@ Les capacités et immunités des squelettes et momies ennemis sont standardisées :
 	- Reorganized and merged tra files into 3 files.
 	- Updated WeiDU installer to v246.
 
-- Components specific modifications and fixes: please read the <a href="https://raw.githubusercontent.com/GwendolyneFreddy/butchery/master/butchery/readme/change-log.txt">change-log file</a>.
+- Components specific modifications and fixes: please read the <a href="https://raw.githubusercontent.com/The-Gate-Project/butchery/master/butchery/readme/change-log.txt">change-log file</a>.
 
 ## 
 
